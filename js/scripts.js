@@ -1,32 +1,33 @@
-FREE_WARNING = 'Free shipping only applies to single customer orders'
-BANNED_WARNIN = 'Unfortunately we do not ship to your country of residence'
-NONE_SELECTED = '0'
+const feeWarning = "Free shipping only applies to single customer orders";
+const bannedWarning = "Unfortunately we do not ship to your country of residence";
+const noneSelected = 0;     // Change to numnber instead of string
 
-if (location = RSA) { shipping === 400 && currency === 'R' }
+ const shipping = null
+const currency = "$"
 
-if (location = NAM) {shipping = 600     // add curly bracket if else statement
-    } else {shipping = 800
-}
-shoes = 300 * 1
-toys = 100 * 5   // add equal sign
-shirts = 150 * 'NONE_SELECTED'
-batteries = 35 * 2   // add equal sign
-pens = 5 * 'NONE_SELECTED' 
+ const customers = 1;
+// const location = "RSA";
 
-shipping = null
-currency = $
+//if (location = "RSA") { shipping === 400 && currency === "R" }
 
-if (shoes + batteries + pens + shirts > 1000 &&  ) {
-	if (location = NAM && customers < 2) {
-			if (location = RSA)
-		    shipping = 0 || calcShipping
+// if (location = "NAM") {
+//     shipping = 600
+//     } else {shipping = 800
+// }
+
+const shoes = 300 * 1
+const toys = 100 * 5
+const shirts = 150 * noneSelected   // change string to const noneSelected
+const batteries = 35 * 2
+const pens = 5 * noneSelected
+
+if (shoes + batteries + pens + shirts >= 1000 ) {
+	if (location = "NAM" && customers <= 2) {
+			if (location = "RSA")
+		    shipping = 0 || shipping
 		}
 	}
 
-if (shipping = 0) && (customers !=== 1) { console.log(WARNING) }
+if (shipping === 0 || customers === 1) { console.log(feeWarning) }
 
-location = 'NK' ? console.log(WARNING) : console.log('price', currency, shoes + batteries + pens + shirts + shipping)
-
-customers = '1'
-const location = 'RSA'
-currency = null
+if ( location = "NK") {console.log(feeWarning)} //: console.log("price", currency, shoes + batteries + pens + shirts + shipping)
